@@ -1,0 +1,83 @@
+/* Responsividade  videos*/
+@media (max-width: 768px) {
+    .glass-container {
+        margin: 20px;
+        padding: 30px 20px;
+        max-width: 90%;
+    }
+
+    .glass-container h1 {
+        font-size: 2.5em;
+    }
+
+    .glass-container h2 {
+        font-size: 1.3em;
+    }
+
+    .glass-container p {
+        font-size: 1em;
+    }
+}
+
+/* Responsividade: Ajusta em mobile (menor inclinação e shift) */
+@media (max-width: 768px) {
+    .video-wrapper1,
+    #MyProject2 .video-wrapper2 {
+        width: 90%;
+        height: 70%;
+        transform: skewX(-15deg); /* Menos skew em mobile */
+    }
+
+    .video-wrapper1 {
+        clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%); /* Shift menor para esquerda */
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+    }
+
+    #MyProject2 .video-wrapper2 {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 30px 100%); /* Shift menor para direita */
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 30px 100%);
+    }
+}
+
+
+/* Responsividade: Ajusta tamanho em telas menores */
+@media (max-width: 768px) {
+    .circular-box {
+        width: 150px;
+        height: 150px;
+    }
+
+    .circular-box img {
+        width: 130%;
+        height: 130%;
+        top: -15%;
+        left: -15%;
+        transform: rotateX(15deg) translateZ(15px);
+        /* Menos intensidade em mobile */
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+
+    .star {
+        width: 1px;
+        height: 1px;
+        /* Menor em mobile */
+    }
+}
+
+/*audio*/
+@media (max-width: 768px) {
+    .audio-player {
+        width: 90%;
+        padding: 15px;
+    }
+}
