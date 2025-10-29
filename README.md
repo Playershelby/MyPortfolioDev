@@ -23,6 +23,7 @@ Sou **Desenvolvedor Web Full Stack** graduado em **Desenvolvimento de Jogos Digi
 * 💼 **Portfólio Web:** site pessoal desenvolvido com HTML, CSS e JS
 
 🔗 **Confira todos os meus projetos no GitHub:** [https://github.com/Playershelby]
+🔗 **Confira o meu portfolio URL:** [https://devff.netlify.app/]
 
 ---
 
@@ -41,5 +42,6 @@ Atualmente, estou explorando o **n8n** e aprimorando meus conhecimentos em autom
 ---
 
 > “Transformo ideias em código e linhas em experiências — sempre em busca do próximo nível da criação digital.”
+
 
 ---
